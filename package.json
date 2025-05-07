@@ -1,0 +1,28 @@
+{
+  "name": "gichini-waruingi",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "gichini-resume": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanataki-zwei/gichini-waruingi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanataki-zwei/gichini-waruingi/issues"
+  },
+  "homepage": "https://github.com/kanataki-zwei/gichini-waruingi#readme",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "inquirer": "^12.6.0"
+  }
+}

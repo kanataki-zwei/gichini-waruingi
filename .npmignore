@@ -1,0 +1,13 @@
+# Ignore unnecessary directories and files
+node_modules/
+.vscode/
+.idea/
+.git/
+.gitignore
+npm-debug.log
+*.log
+.env
+.env.*
+
+# ignore lock files
+package-lock.json
