@@ -17,14 +17,21 @@ const showSkills = () => {
 
 const showExperience = () => {
   console.log(chalk.yellow("\n💼 Experience:"));
-  console.log("  - Wowzi Technologies — Senior Data Scientist / Data Lead / Data Protection Officer");
-  console.log("  - Iconia Technologies - Tech Lead / Senior Data & Analytics Engineer");
-  console.log("  - Faraja Cancer Center — Volunteer: Data Systems Consultant\n");
+  console.log("  - Wowzi Technologies — Senior Data Scientist / Data Lead / Data Protection Officer (2022 = 2025)");
+  console.log("  - Faraja Cancer Center — Volunteer: Data Systems Consultant (2024 - Present)");
+  console.log("  - Iconia Technologies - Tech Lead / Senior Data & Analytics Engineer (2017 - 2022)");
+  console.log("  - Learning Lions — ICT Trainer (2016 - 2017)");
+  console.log("  - Tunapanda Institute — Network Engineer & ICT Trainer (2015 - 2017)");
 };
 
 const showProjects = () => {
   console.log(chalk.magenta("\n📚 Projects:"));
-  console.log("  - Cancer Support Therapy Booking system: Streamlit");
+  console.log(chalk.white("  - Cancer Support Therapy Booking system: Streamlit"));
+  console.log(chalk.gray("https://github.com/kanataki-zwei/faraja-therapy-booking\n"));
+  console.log(chalk.white("  - Social Scoring Model: Machine Learning Model"));
+  console.log(chalk.gray("\n"));
+  console.log(chalk.white("  - Transaction Classification: Machine learning demo on classifying financial transaction types"));
+  console.log(chalk.gray("https://github.com/kanataki-zwei/transaction-classification-analysis\n"));
 };
 
 const showExit = () => {
